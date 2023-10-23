@@ -1,0 +1,63 @@
+/* WebContact.scss */
+
+.feedback {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feedback-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .feedback-description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .feedback-form {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+  }
+  
+  .form-group textarea {
+    max-width: 95%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

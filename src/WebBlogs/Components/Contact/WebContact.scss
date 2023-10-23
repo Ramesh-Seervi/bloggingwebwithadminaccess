@@ -1,0 +1,87 @@
+/* WebContact.scss */
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .contact-description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .contact-method, .contact-form {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  .contact-method h3, .contact-form h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .contact-method p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .contact-form form {
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding-left: 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
